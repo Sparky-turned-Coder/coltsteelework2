@@ -9,3 +9,29 @@ span.number {
 .feet {
     text-align: center;
 }
+
+/* applies a border to the table */
+table,th,td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 1500px;
+    table-layout: fixed;
+}
+
+th {
+    font-size: 18pt;
+    background-color: teal;
+}
+
+.cheetah1,.cheetah2,.cheetah3,.cheetah4 {
+    width: 300px;
+}
+
+/* use  CTRL + K , CTRL + C  to comment out a selected section of code  */
+.map1,.map2,.map3,.map4 {
+    height: 250px;
+}
