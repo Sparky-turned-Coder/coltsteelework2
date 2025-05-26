@@ -35,3 +35,7 @@ th {
 .map1,.map2,.map3,.map4 {
     height: 250px;
 }
+
+.contact_body,.contact.list {
+    text-align: center;
+}
