@@ -8,10 +8,57 @@
 </head>
 <body>
     <h1>Forms Demo</h1>
-    <form action=""></form>
+    <form action="/tacos">
+        <button type="button">PLEASE DO NOT SUBMIT THE FORM</button>
+        <p>
+            <label for="username">Enter a username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a password:</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <button>IN THE MIDDLE</button>
+        <p>
+            <label for="color">Choose a color:</label>
+            <input id="color" type="color" name="color">
+        </p>
+        <p>
+            <label for="number">Enter a number:</label>
+            <input id="number" type="number" placeholder="enter a number" name="num">
+        </p>
+
+        <button>Submit</button>
+    </form> 
+
+    <div class="preferences">
+        <label for="cheese">Do you like cheese?</label>
+        <input type="checkbox" name="cheese" id="cheese">
+    </div>
+
+    <form>
+        <p>
+            <!-- Alternative way to label an input (less common)-->
+            <label>
+                Enter a number:
+                <input type="number" placeholde="enter a number">
+            </label>
+        </p>
+        <!-- this button doesn't submit the form because of the "type" attribute-->
+        <button type="button">Regular Button (won't submit)</button>
+        <!-- This button submits the form -->
+        <button>Submit!!!</button>
+        <!-- So does this one -->
+        <input type="submit" value="Click Me!">
+    </form>
+    <hr>
+    <!-- Outside of the form, no default behavior-->
+    <button>Not inside the form</button>
+
+
 
     <!-- Below are the elements for a table we learned. Just reinforcing the syntax here through repetition -->
-    <table>
+    <!-- <table>
         <tr>
             <th></th>
             <th></th>
@@ -30,7 +77,7 @@
             <td></td>
             <td></td>
         </tr>
-    </table>
+    </table> -->
 
 
 </body>
