@@ -460,6 +460,34 @@
           <button>Search YouTube</button>
         </form>
       <hr>
+      <h2> More Inputs!</h2>
+    <form action="/dragon">
+        <h3>Do you like Dragons?</h3>
+        <input type="checkbox" name="like_dragons" id="agree" checked>
+        <label for="agree">I like Dragons</label>
+        <p>
+            <h3>Choose your favorite dragon:</h3>
+            <input type="radio" name="dragon_fav" id="dragon1" value="blue"> <!-- VALUE is what you see submitted to the server -->
+            <label for="dragon1">Blue Dragon</label>
+            <input type="radio" name="dragon_fav" id="dragon2" value="red">
+            <label for="dragon2">Red Dragon</label>
+            <input type="radio" name="dragon_fav" id="dragon3" value="gold">
+            <label for="dragon3">Gold Dragon</label>
+        </p>
+        <p>
+            <label for="rider"><strong><h3>Please select a dragon rider:</h3></strong></label>
+            <select name="dragon_rider" id="rider">
+                <option value="spear">Spearman</option>
+                <option value="b_axe">Battle Axe Barbarian</option>
+                <option value="sorc">Sorcerer</option>
+                <option value="necro">Necromancer</option>
+                <option value="mage">Healer</option>
+                <option value="arrow">Archer</option>
+            </select>
+        </p>
+            <button>Form Submit</button>
+    </form>
+      <hr>
         <footer id="feet" class="feet"><small>Copyright &copy; Solo Studios<sup>&reg;</sup> 2025</small></footer>
     </main>
 </body>

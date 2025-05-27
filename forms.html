@@ -55,6 +55,45 @@
     <!-- Outside of the form, no default behavior-->
     <button>Not inside the form</button>
 
+    <hr>
+    <h2> More Inputs!</h2>
+    <form action="/dragon">
+        <h3>Do you like Dragons?</h3>
+        <input type="checkbox" name="like_dragons" id="agree" checked>
+        <label for="agree">I like Dragons</label>
+        <p>
+            <h3>Choose your favorite dragon:</h3>
+            <input type="radio" name="dragon_fav" id="dragon1" value="blue"> <!-- VALUE is what you see submitted to the server -->
+            <label for="dragon1">Blue Dragon</label>
+            <input type="radio" name="dragon_fav" id="dragon2" value="red">
+            <label for="dragon2">Red Dragon</label>
+            <input type="radio" name="dragon_fav" id="dragon3" value="gold">
+            <label for="dragon3">Gold Dragon</label>
+        </p>
+        <p>
+            <label for="rider"><strong><h3>Please select a dragon rider:</h3></strong></label>
+            <select name="dragon_rider" id="rider">
+                <option value="spear">Spearman</option>
+                <option value="b_axe">Battle Axe Barbarian</option>
+                <option value="sorc">Sorcerer</option>
+                <option value="necro">Necromancer</option>
+                <option value="mage">Healer</option>
+                <option value="arrow">Archer</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese1">Amount of Cheese:</label>
+            <input type="range" id="cheese1" min="0" max="100" step="5" name="cheese_level">
+            <label for="num">Choose a number:</label>
+            <input type="number" id="num" min="2" max="200" step="2" name="num_level">
+        </p>
+        <p>
+            <label for="story">Finish the story:</label><br>
+            <textarea name="story" id="story" rows="12" cols="40">Lightning danced on forked legs in the distance...</textarea>
+        </p>
+            <button>Form Submit</button>
+    </form>
+
 
 
     <!-- Below are the elements for a table we learned. Just reinforcing the syntax here through repetition -->
