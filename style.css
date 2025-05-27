@@ -2,6 +2,10 @@ html {
     background-color: lightgrey;
 }
 
+h3,li,header,h1 {
+    text-shadow: 2px 2px 4px gray;
+}
+
 span.number {
     color: red;
 }
