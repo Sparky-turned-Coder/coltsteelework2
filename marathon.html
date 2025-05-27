@@ -13,24 +13,31 @@
     </p>
     <form action="/index.html">
         <label for="first">First Name:</label>
-        <input type="text" name="first" id="first" placeholder="first" required> 
+        <input type="text" name="firstname" id="first" placeholder="first" required> 
         <label for="last">Last Name:</label>
-        <input type="text" name="last" id="last" placeholder="last" required>
-        <p>
+        <input type="text" name="lastname" id="last" placeholder="last" required>
+            <div>
             <h4>Select a Race:</h4>
-            <input type="radio" name="marathon" id="fun_run" value="fun_run">
-            <label for="fun_run">Fun Run 5K</label><br>
-            <input type="radio" name="marathon" id="half" value="half">
-            <label for="half">Half Marathon</label><br>
-            <input type="radio" name="marathon" id="full" value="full">
-            <label for="full">Full Marathon</label>
-        </p>
-        <p>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="email" required>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" placeholder="password" minlength="8" maxlength="20" required>
-        </p>
+            <!-- Had to remember, NAME needs to be the same across all radio buttons to give the option of only choosing 1 of the 3.
+             FOR and ID must match to group the 2 together -->
+                <input type="radio" name="marathon" id="fun_run" value="fun_run">
+                <label for="fun_run">Fun Run 5K</label>
+            </div>
+            <div>
+                <input type="radio" name="marathon" id="half" value="half">
+                <label for="half">Half Marathon</label>
+            </div>
+            <div>
+                <input type="radio" name="marathon" id="full" value="full">
+                <label for="full">Full Marathon</label>
+            </div>
+        <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="email" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="password" minlength="8" maxlength="20" required>
+            </div>
         <p>
             <label for="age">Select an Age Group:</label>
             <select name="age" id="age">
