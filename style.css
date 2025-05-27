@@ -2,8 +2,36 @@ html {
     background-color: lightgrey;
 }
 
+/* property values for text-shadow left to right - shift right(px) shift down(px) blur(px) color  */
 h3,li,header,h1 {
-    text-shadow: 2px 2px 4px gray;
+    text-shadow: 2px 4px 4px gray;
+}
+
+.header {
+    text-align: center;
+}
+
+.h2 { /* h2 element is a BLOCK ELEMENT, thus you'll notice the background color spans the entire width of the page */
+    color: #ce2b08;
+    background-color: #0f5679;
+}
+
+.h1 {
+    color: #999;
+}
+
+.bod {
+    background-color: #000;
+}
+
+.p1 {
+    color: #c5e;
+    background-color: RGB(236, 172, 29);
+}
+
+.but {
+    background-color: palegreen;
+    color: blue;
 }
 
 span.number {
@@ -46,4 +74,9 @@ th {
 
 .btt_footer {
     text-align: center;
+}
+
+button {
+    background-color: #0f5679;
+    color:whitesmoke;
 }
