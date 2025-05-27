@@ -8,6 +8,9 @@
 </head>
 <body>
     <h1>Forms Demo</h1>
+    <p>
+        <a href="index.html"><button>Back to Home Page</button></a>
+    </p>
     <form action="/tacos">
         <button type="button">PLEASE DO NOT SUBMIT THE FORM</button>
         <p>
@@ -92,6 +95,21 @@
             <textarea name="story" id="story" rows="12" cols="40">Lightning danced on forked legs in the distance...</textarea>
         </p>
             <button>Form Submit</button>
+
+        <h2>Client-Side Validations Demo</h2>
+        <form action="/dummy">
+            <label for="first">Enter your first name:</label>
+            <input type="text" name="first" id="first" required>
+            <p>
+                <label for="user_n">Username:</label>
+                <input type="text" id="user_n" name="user_n" minlength="6" maxlength="20" required>
+            </p>
+            <p>
+                <input type="email" required>
+                <input type="url" required>
+            </p>
+            <button>Submit Name</button>
+        </form>
     </form>
 
 
