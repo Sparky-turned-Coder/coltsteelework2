@@ -7,6 +7,15 @@ h3,li,header,h1 {
     text-shadow: 2px 4px 4px gray;
 }
 
+/* h3 {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+} */
+
+#et,#tax,#p_e,#gen,#breed,#tab {
+    text-decoration: underline;
+}
+
 .header {
     /* position: fixed; */
     text-align: center;
