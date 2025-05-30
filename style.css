@@ -8,6 +8,7 @@ h3,li,header,h1 {
 }
 
 .header {
+    /* position: fixed; */
     text-align: center;
 }
 
@@ -80,3 +81,7 @@ button {
     background-color: #0f5679;
     color:whitesmoke;
 }
+
+/* .top_bar {
+    position: fixed;
+} */
