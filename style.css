@@ -7,18 +7,46 @@ h3,li,header,h1 {
     text-shadow: 2px 4px 4px gray;
 }
 
+h1 {
+    text-align: center;
+}
+
+.cheetah_pic {
+    text-align: center;
+}
+
 /* h3 {
     text-decoration: underline;
     text-decoration-style: wavy;
 } */
 
-#et,#tax,#p_e,#gen,#breed,#tab {
+#et,#tax,#p_e,#gen,#breed {
     text-decoration: underline;
+}
+
+.list1 {
+    line-height: 1.5;
 }
 
 .header {
     /* position: fixed; */
     text-align: center;
+    /* font-weight: bold; */
+}
+
+/* Below we can change all our anchor tags to have no underline  */
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+table td {
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+    letter-spacing: .3px;
 }
 
 .h2 { /* h2 element is a BLOCK ELEMENT, thus you'll notice the background color spans the entire width of the page */
@@ -60,7 +88,7 @@ table,th,td {
 }
 
 table {
-    width: 1500px;
+    width: 1259px;
     table-layout: fixed;
 }
 
