@@ -5,3 +5,5 @@ So we learned that if I create this README remotely (on Github) instead of local
 We can use this for notes that we take as we work though the bootcamp. Keeping up with it along with all our project files. This is fucking cool.  :D
 
 Started the CSS section of Colt Steele's Web Dev Bootcamp today, 5/27/2025. Discovered some good color pickers, freshened up on CSS syntax.
+
+Cloned my Github repo onto seperate laptop today, 5/29/2025, so that I can work on my projects at home and away, pushing and pulling through bash.
