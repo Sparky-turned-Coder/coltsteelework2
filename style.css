@@ -43,7 +43,7 @@ h1 {
 }
 
 ol ul {     /* Applied the CSS below to all UL's nested inside OL's  */
-    color: red;
+    color:aqua;
     font-size: 18px;
     font-weight: 500;
 }
@@ -65,6 +65,10 @@ a {
     text-decoration: none;
     font-weight: 600;
 }
+
+/* .table_bottom {        /* This isn't working. Must be another way to center a table.
+    text-align: center;
+} */
 
 table td {
     text-align: center;
