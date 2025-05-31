@@ -39,3 +39,10 @@ span {
 footer a {
     color: #e63946;
 }
+
+/*      ADJACENT SELECTOR - see below */
+/*      We have selected only the paragraphs immediately preceded by an <h1> */
+/*  h1 + p {
+    color:red;
+    } 
+*/
