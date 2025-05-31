@@ -25,11 +25,12 @@ h3,li,header,h1 {
 h1 {
     text-align: center;
     font-size: 4em; /* We will learn later the benefit to using this instead of pixels */
+    color:#1d3557;
 }
 
 .cheetah_pic {
     text-align: center;
-    background-color: rgb(0, 50, 0);
+    background-color: #1d3557;
 }
 
 /* h3 {
@@ -39,6 +40,12 @@ h1 {
 
 #et,#tax,#p_e,#gen,#breed {
     text-decoration: underline;
+}
+
+ol ul {     /* Applied the CSS below to all UL's nested inside OL's  */
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .list1,.header {
@@ -68,6 +75,8 @@ p {
     letter-spacing: .3px;
     font-size: 14px;
     font-family: monospace;
+    font-weight: 500;
+    color: #1d3557;
 }
 
 .h2 { /* h2 element is a BLOCK ELEMENT, thus you'll notice the background color spans the entire width of the page */
