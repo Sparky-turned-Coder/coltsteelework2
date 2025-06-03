@@ -8,4 +8,4 @@ Started the CSS section of Colt Steele's Web Dev Bootcamp today, 5/27/2025. Disc
 
 Cloned my Github repo onto seperate laptop today, 5/29/2025, so that I can work on my projects at home and away, pushing and pulling through bash.
 
-Finished section 6 of Colt Steele's web dev bootcamp on, 5/30/2025.
+Finished section 6 of Colt Steele's web dev bootcamp on, 5/30/2025.# pythonwork
